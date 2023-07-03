@@ -7,3 +7,8 @@ def current_wind(request):
     wind = json_weather['current']['wind_kph']
 
     return render(request, 'wind.html', {'wind': wind})
+
+
+
+def qwerty(request):
+    return render(request, '123.html')
